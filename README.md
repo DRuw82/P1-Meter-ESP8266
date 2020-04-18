@@ -5,7 +5,7 @@ This repo is a fork from Jan and changed to communicate with Homey instead of Do
 
 ### Installation instructions
 - Make sure that your ESP8266 can be flashed from the Arduino environnment: https://github.com/esp8266/Arduino
-- Install the SoftSerial library from: https://github.com/plerup/espsoftwareserial
+- ~~Install the SoftSerial library from: https://github.com/plerup/espsoftwareserial~~ (Not needed anymore since it is included in the esp8266 package already, furthermore the newest version is incompatible with this code)
 - Install the HomeyDuino library from: https://github.com/athombv/homey-arduino-library
 - Place all files from this repository in a directory. Open the .ino file with Arduino.
 - Adjust WIFI, Homey and debug settings at the top of the file
